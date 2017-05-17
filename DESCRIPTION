@@ -1,0 +1,14 @@
+Package: TravelSurvey
+Type: Package
+Title: Package for Travel Survey data
+Version: 0.0.1
+Date: 2017-05-17
+Author: Samuel G. Younkin <syounkin@wisc.edu>
+Maintainer: Samuel G. Younkin <syounkin@wisc.edu>
+Description: This package is used to define the TravelSurvey class and perform descriptive statistics to summarize the travel behavior of the sample.  In the future it may be used to simulate travel survey statistics.  This package also will create the ITHIM object needed for the ITHIM package.
+License: GPL-2
+Depends:
+    R (>= 3.0.0), tidyverse, utils, methods, stats
+Suggests:
+    knitr, testthat
+RoxygenNote: 5.0.1
